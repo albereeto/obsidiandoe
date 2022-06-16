@@ -6,7 +6,7 @@ publish = "public"
 LANDING_BUTTON = "<div>LASER Project Documentation Overview</div>"
 LANDING_DESCRIPTION = "<div style='margin-bottom: 1rem; margin-top: -3rem;'>LASER Project Documentation Overview</div>"
 LANDING_PAGE = "home"
-LANDING_TITLE = "<span class='hvr-grow'>LASER Project Documentation Overview</span>"
+LANDING_TITLE = "<div>LASER Project Documentation Overview</div>"
 # (Optional) Text in landing page button
 #LANDING_BUTTON = "LASER Project Documentation Overview"
 # (Optional) Site description on landing page
