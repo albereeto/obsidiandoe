@@ -1,12 +1,12 @@
 [build]
-command = "rm -rf __obsidian __site && mkdir __obsidian && mv * __obsidian || true && git clone https://github.com/ppeetteerrs/obsidian-zola.git __site && __site/run.sh"
+command = "rm -rf __obsidian __site && mkdir __obsidian && mv * __obsidian || true && git clone https://github.com/albereeto/obsidianbase __site && __site/run.sh"
 publish = "public"
 
 [build.environment]
-LANDING_BUTTON = "<span class='shake-rotate shake-freeze'>LASER Project Documentation Overview</span>"
+LANDING_BUTTON = "<div>LASER Project Documentation Overview</div>"
 LANDING_DESCRIPTION = "<div style='margin-bottom: 1rem; margin-top: -3rem;'>LASER Project Documentation Overview</div>"
 LANDING_PAGE = "home"
-LANDING_TITLE = "<span class='hvr-grow'>LASER Project Documentation Overview</span>"
+LANDING_TITLE = "<div>LASER Project Documentation Overview</div>"
 # (Optional) Text in landing page button
 #LANDING_BUTTON = "LASER Project Documentation Overview"
 # (Optional) Site description on landing page
@@ -17,13 +17,13 @@ LANDING_TITLE = "<span class='hvr-grow'>LASER Project Documentation Overview</sp
 #LANDING_TITLE = "DOE Documentation Dependency Diagram"
 PYTHON_VERSION = "3.8"
 # (REQUIRED) Site repo URL
-REPO_URL = "https://github.com/albereeto/obsidian"
+REPO_URL = "https://github.com/albereeto/obsidiandoe"
 # (Optional) Site title in navbar
 SITE_TITLE = "DOE Documentation Dependency Diagram"
 # (Optional) Site title in browser tab (leave blank to use SITE_TITLE)
 SITE_TITLE_TAB = "DOE Documentation Dependency Diagram"
 # (REQUIRED) Netlify site URL
-SITE_URL = "https://euphonious-salamander-c3ecf3.netlify.app/"
+SITE_URL = "https://fancy-travesseiro-dddff8.netlify.app/"
 # (Optional) Site Timezone
 TIMEZONE = "Asia/Hong_Kong"
 ZOLA_VERSION = "0.15.2"
