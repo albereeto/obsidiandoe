@@ -1,0 +1,3 @@
+There’s a few categories of documentation that’s essential to understanding and handing over the project. Starting from the architecture documentation to the execution documentation to the actual debugging documentation, there is a logical order to the documentation that I think is worth following. The structure of this documentation is outlined in the following dependency diagram (to be made) which shows a graphical representation of how each piece of documentation works with other pieces of documentation to help accomplish the reader’s objectives and/or give context on the broad overview of the project.
+
+This site is an example that shows how the dependency diagram would look if it were to be finished:
